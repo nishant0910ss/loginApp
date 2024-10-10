@@ -1,9 +1,7 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+//git add .
+//git commit -m "MESSAGE"
+//git push origin main
+
 
 import React from 'react';
 
@@ -35,7 +33,7 @@ function App() {
         <Stack.Screen
           name="Login"
           component={Login}
-          options={{title: 'Screen'}}
+          options={{title: 'Login Screen'}}
         />
         <Stack.Screen
           name="Home"
